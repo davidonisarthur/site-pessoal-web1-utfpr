@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal de Arthur, desenvolvido com HTML e CSS para a atividade de Desenvolvimento Web.">
+    <title>Arthur | Site pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="inicio">
+        <h1>Arthur</h1>
+        <p>Olá! Este é meu primeiro site pessoal, criado para apresentar minha trajetória e meus aprendizados em desenvolvimento web.</p>
+        <figure>
+            <img src="images/computador.svg" alt="Computador exibindo símbolos de código HTML" width="320" height="220">
+            <figcaption>Uma imagem representativa do aprendizado em tecnologia.</figcaption>
+        </figure>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação acadêmica</a></li>
+                <li><a href="#projetos">Projetos e interesses</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#perfis">Perfis e links</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>Estou construindo este espaço como parte de uma atividade de desenvolvimento web. Aqui reúno minha apresentação, formação, projetos e habilidades.</p>
+            <p>Sou estudante de Engenharia de Software na Universidade Tecnológica Federal do Paraná (UTFPR), atualmente no 4º período. Atuo como desenvolvedor fullstack e pesquisador de iniciação científica na própria UTFPR. Busco aprofundar meus conhecimentos em desenvolvimento de software e pesquisa, conectando o aprendizado acadêmico à prática na construção de soluções tecnológicas.</p>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação acadêmica</h2>
+            <dl>
+                <dt>Instituição</dt>
+                <dd>Universidade Tecnológica Federal do Paraná - UTFPR.</dd>
+                <dt>Curso</dt>
+                <dd>Engenharia de Software.</dd>
+                <dt>Período de estudo</dt>
+                <dd>4º período.</dd>
+            </dl>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos e interesses</h2>
+            <article>
+                <h3>Meu primeiro site pessoal</h3>
+                <p>Projeto acadêmico iniciado com HTML para organizar o conteúdo com títulos, parágrafos, listas, imagens, links e um formulário.</p>
+                <p>Nesta segunda etapa, um arquivo CSS externo define a apresentação visual. A página mantém a navegação por seções e não utiliza frameworks ou JavaScript.</p>
+                <p><a href="index.html">Abrir a página do projeto</a></p>
+            </article>
+            <h3>Temas desta etapa de aprendizado</h3>
+            <ul>
+                <li>Estrutura básica de documentos HTML.</li>
+                <li>Organização semântica e acessibilidade do conteúdo.</li>
+                <li>Publicação de páginas estáticas no GitHub Pages.</li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades e tecnologias</h2>
+            <p>Conteúdos praticados neste projeto:</p>
+            <ul>
+                <li><strong>HTML:</strong> estrutura do documento, títulos e parágrafos.</li>
+                <li><strong>CSS:</strong> cores, tipografia, espaçamentos e organização responsiva.</li>
+                <li><strong>Navegação:</strong> hyperlinks e âncoras para as seções.</li>
+                <li><strong>Imagens:</strong> uso de arquivo local com texto alternativo.</li>
+                <li><strong>Formulários:</strong> campos com rótulos e tipos de entrada apropriados.</li>
+            </ul>
+        </section>
+
+        <section id="perfis">
+            <h2>Perfis e links</h2>
+            <p>Conheça meus projetos no GitHub e acompanhe meu perfil profissional no LinkedIn:</p>
+            <ul>
+                <li><a href="https://github.com/davidonisarthur">Meu GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/arthurdavidonisrd/">Meu LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato pelo e-mail: <a href="mailto:arthurdavidonis@alunos.utfpr.edu.br">arthurdavidonis@alunos.utfpr.edu.br</a>.</p>
+            <p id="aviso-formulario">Este formulário é demonstrativo. Os dados preenchidos não são enviados nem armazenados.</p>
+            <form aria-describedby="aviso-formulario">
+                <fieldset>
+                    <legend>Deixe uma mensagem</legend>
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" autocomplete="name" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="projeto">Sobre um projeto</option>
+                            <option value="estudos">Estudos e aprendizado</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="6" cols="30" required></textarea>
+                    </p>
+                    <button type="button" disabled>Envio indisponível nesta etapa</button>
+                    <button type="reset">Limpar campos</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Arthur — atividade de Desenvolvimento Web com HTML e CSS.</p>
+        <p><a href="#inicio">Voltar ao início</a></p>
+    </footer>
+</body>
+</html>
