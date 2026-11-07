@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
+    <title>Computador com símbolos de HTML</title>
+    <rect width="320" height="220" rx="16" fill="#edf2f7"/>
+    <rect x="42" y="28" width="236" height="148" rx="8" fill="#334155"/>
+    <rect x="54" y="40" width="212" height="120" rx="2" fill="#ffffff"/>
+    <path d="M119 75 L92 100 L119 125 M201 75 L228 100 L201 125 M174 66 L146 134" fill="none" stroke="#2563eb" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M145 176 L140 192 H180 L175 176" fill="#334155"/>
+    <rect x="111" y="192" width="98" height="8" rx="4" fill="#334155"/>
+</svg>
