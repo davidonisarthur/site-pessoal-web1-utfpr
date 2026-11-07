@@ -1,0 +1,23 @@
+[
+  {
+    "width": 375,
+    "overflow": false,
+    "columns": "328px",
+    "imagesLoaded": true,
+    "controlsFit": true
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "columns": "348.5px 348.5px",
+    "imagesLoaded": true,
+    "controlsFit": true
+  },
+  {
+    "width": 1200,
+    "overflow": false,
+    "columns": "548px 548px",
+    "imagesLoaded": true,
+    "controlsFit": true
+  }
+]
