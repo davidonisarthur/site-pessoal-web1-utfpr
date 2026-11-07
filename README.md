@@ -1,8 +1,8 @@
 # Site pessoal — Mobile First
 
-- **Aluno:** Arthur.
+- **Aluno:** Arthur Otavio Rodrigues Davidonis.
 - **Objetivo:** separar conteúdo HTML e apresentação CSS, com layout Mobile First usando Grid e Flexbox, sem frameworks ou JavaScript na página.
-- **Site publicado:** pendente; inserir o endereço após a publicação no GitHub Pages.
+- **Site publicado:** [Acessar o site pessoal](https://davidonisarthur.github.io/site-pessoal-web1-utfpr/).
 
 Abra `index.html` no navegador ou execute `python -m http.server 8000` e acesse http://localhost:8000.
 
